@@ -12,7 +12,7 @@
 		"build": "tsc",
 		"start": "npm run build && dist/cli.js",
 		"pretest": "npm run build",
-		"publish": "np"
+		"publish": "np --no-yarn"
 	},
 	"files": [
 		"dist/cli.js",
