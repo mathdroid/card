@@ -12,7 +12,8 @@
 		"build": "tsc",
 		"start": "npm run build && dist/cli.js",
 		"pretest": "npm run build",
-		"test": "xo && ava"
+		"test": "xo && ava",
+		"publish": "np"
 	},
 	"files": [
 		"dist/cli.js"
